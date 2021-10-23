@@ -1,0 +1,29 @@
+{
+  "name": "@fabric/turntable",
+  "version": "0.1.0-dev",
+  "description": "Turntable.fm for Fabric.",
+  "main": "services/turntable.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabricLabs/fabric-turntable.git"
+  },
+  "keywords": [
+    "fabric",
+    "turntable",
+    "ttfm",
+    "music",
+    "soundtrack"
+  ],
+  "author": "Fabric Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabricLabs/fabric-turntable/issues"
+  },
+  "homepage": "https://github.com/FabricLabs/fabric-turntable#readme",
+  "dependencies": {
+    "@fabric/core": "github:FabricLabs/fabric#message-relay"
+  }
+}
